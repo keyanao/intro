@@ -1,0 +1,179 @@
+#face{
+    width: 100%
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    font-size: 40px;
+}
+
+h2{
+    font-size: 30px;
+}
+
+.header{
+    position: relative;
+}
+
+.option{
+    position: absolute;
+    color: blueviolet;
+    top: 0;
+    left: 10px;
+    font-size: 20px;
+}
+
+.about{
+    display: flex;
+    justify-content: space-around;
+    padding:100px 400px;
+}
+
+#face2{
+    width: 35%
+}
+
+.aa {
+    display: flex;
+    font-size: 20px;
+ }
+
+ .introduction_element{
+    font-weight: 700;
+}
+
+.element{
+    margin: 0 50px;
+}
+
+
+#h{
+    width: 100%;
+    justify-content: space-around;
+    padding: 10% 0 0 0;
+}
+
+.hobby{
+    display: flex;
+    justify-content: space-around;
+}
+
+.trip{
+    width: 40%;
+}
+
+.trip img{  
+    display:none;
+    animation:anime 5s;
+}
+
+@keyframes anime {
+    from { opacity:0; }
+	to { opacity:1; }
+}
+
+.trip_content{
+    justify-content: space-around;
+    padding: 0 0 0 10px;
+
+#s{
+    justify-content: space-around;
+    padding: 10% 0 0 0;
+}
+
+.speciality{
+    display: flex;
+    width: 100%
+}
+
+.bad img{
+    width: 90%;
+    flex-basis: 50%;
+}
+
+.bad_content{
+    justify-content: space-around;
+    padding: 0 0 0 10px;
+    flex-basis: 50%;
+}
+
+.skill{
+    padding: 100px 0 0 0;
+}
+.three-icon{
+    display: flex;
+    justify-content: space-evenly;
+}
+#c-icon{
+    width: 70%;
+    height: 300px;
+}
+#java-icon{
+    width: 70%;
+    height: 300px;
+}
+#ruby-icon{
+    width: 70%;
+    height: 300px;
+}
+
+#html-icon{
+    width: 70%;
+    height: 300px;
+}
+
+#css-icon{
+    width: 70%;
+    height: 300px;
+}
+
+.two-icon{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.Product-content{
+    padding: 100px 0 0 0;
+}
+.product{
+    display: flex;
+}
+
+#patiris{
+    width: 100%;
+    height: 35%;
+}
+
+.teto-content{
+    justify-content: space-around;
+    padding: 0 20% 0 15%;
+}
+
+.tetoris{
+    white-space: nowrap;
+}
+
+#InfinityBullett{
+    width: 100%;
+}
+
+.bullet-content{
+    justify-content: space-around;
+    padding: 0  10% 0 0%;
+}
+
+.SNS{
+    text-align:center;
+}
+
+#insta{
+    width: 50px;
+    height: 50px;
+}
+#twitter{
+    width: 50px;
+    height: 50px;
+}
